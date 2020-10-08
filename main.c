@@ -1,5 +1,5 @@
 #include<function.h>
-
+int amount=0;
 int main() {
     int choice;
     int deposit_amount=0;
