@@ -10,7 +10,7 @@ src/function.c\
 
 # All test source files
 TEST_SRC = src/function.c\
-test/test_function.c
+test/test_function.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -36,7 +36,8 @@ run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
-
+doc:
+	make -C ./documentation
 
 # Build and run the unit tests
 test:$(BUILD)
