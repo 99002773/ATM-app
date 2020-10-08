@@ -1,5 +1,5 @@
 #include<function.h>
-int amount=0;
+//int amount=0;
 int main() {
     int choice;
     int deposit_amount=0;
@@ -28,13 +28,13 @@ int main() {
     	       scanf("%d",&deposit_amount);
 	       dep_amount=Deposit(deposit_amount);
 		printf("Your account balance \n");
-    		printf("%d",amount);
+    		printf("%d",dep_amount);
                 break;
         case 3: printf("Please enter your withdraw amount\n");
     		scanf("%d",&withdraw_amount);
 		with_amount=Withdraw(withdraw_amount);
 		printf("Your account balance \n");
-    		printf("%d",amount);
+    		printf("%d",with_amount);
                 break;
         case 4: printf("Thank you for your transaction");
                 exit(0);
