@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Function
+PROJECT_NAME = function
 
 # Output directory
 BUILD = build
@@ -36,8 +36,7 @@ run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
-doc:
-	make -C ./documentation
+
 
 # Build and run the unit tests
 test:$(BUILD)
