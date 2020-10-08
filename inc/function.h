@@ -7,6 +7,6 @@
 int CheckBalance();
 int Deposit(int);
 int Withdraw(int);
-//int amount=0;
+int amount=0;
 
 #endif
