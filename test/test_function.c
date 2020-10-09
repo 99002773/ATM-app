@@ -51,10 +51,10 @@ void test_Deposit(void) {
 
 void test_Withdraw(void) {
   CU_ASSERT(14800 == Withdraw(700));
-  CU_ASSERT(2700 == Withdraw(300));
-  CU_ASSERT(3000 == Withdraw(200));
-  CU_ASSERT(6000 == Withdraw(100));
-   CU_ASSERT(14400 == Withdraw(600));
+  CU_ASSERT(14500 == Withdraw(300));
+  CU_ASSERT(14300 == Withdraw(200));
+  CU_ASSERT(14200 == Withdraw(100));
+   CU_ASSERT(13600 == Withdraw(600));
 
   /* Dummy fail*/
   CU_ASSERT(0 == Withdraw(6));
