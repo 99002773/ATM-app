@@ -5,7 +5,7 @@ int main() {
     int deposit_amount=0;
     int withdraw_amount=0;
     int bal=0;
-    int dep_amount=0;
+    int dep_amou=0;
     int with_amount=0;
      while(1)
     {
