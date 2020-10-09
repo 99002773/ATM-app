@@ -40,10 +40,10 @@ int main() {
 /* Write all the test functions */
 void test_Deposit(void) {
   CU_ASSERT(1000 == Deposit(1000));
-  CU_ASSERT(2000 == Deposit(2000));
-  CU_ASSERT(3000== Deposit(3000));
-  CU_ASSERT(4000 == Deposit(4000));
-  CU_ASSERT(5000 == Deposit(5000));
+  CU_ASSERT(3000 == Deposit(2000));
+  CU_ASSERT(6000== Deposit(3000));
+  CU_ASSERT(10000 == Deposit(4000));
+  CU_ASSERT(15000 == Deposit(5000));
 
   /* Dummy fail*/
   CU_ASSERT(50 == Deposit(500));
